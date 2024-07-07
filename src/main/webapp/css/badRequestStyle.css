@@ -1,0 +1,16 @@
+body{
+    background: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+span{
+    color: white;
+    font-size: 3rem;
+    font-family: arial,sans-serif;
+}

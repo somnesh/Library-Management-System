@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(to right,rgb(224, 43, 43),rgb(255, 173, 106));
+}
+
+.messege{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 3.5rem;
+    border-radius: 12px;
+}
+
+.messege.btn{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(27, 135, 230);
+}
+
+a:active{
+    color: rgb(0, 59, 185);
+}
